@@ -1,0 +1,14 @@
+{
+  "name": "wedding-gift-register",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js && node auth-test.js",
+    "test:ui": "node ui-test.js",
+    "test:guests": "node guest-test.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1"
+  }
+}
